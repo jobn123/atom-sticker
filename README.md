@@ -12,6 +12,6 @@ run `apm install atom-sticker` in your terminal, or search `atom-sticker` in Ato
 
 ## Screenshots
 
-![](screenshots.jpeg)
+![](http://7xoboh.com1.z0.glb.clouddn.com/screenshots.jpeg)
 
 ## have fun !
