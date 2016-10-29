@@ -2,13 +2,14 @@
   "name": "atom-sticker",
   "main": "./lib/atom-sticker",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "a package to make you enjoy your coding with atom, have fun!",
   "keywords": [
+    "sticker"
   ],
   "activationCommands": {
     "atom-workspace": "atom-sticker:toggle"
   },
-  "repository": "https://github.com/atom/atom-sticker",
+  "repository": "https://github.com/jobn123/atom-sticker.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
