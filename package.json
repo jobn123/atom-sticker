@@ -1,7 +1,7 @@
 {
   "name": "atom-sticker",
   "main": "./lib/atom-sticker",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "a package to make you enjoy your coding with atom, have fun!",
   "keywords": [
     "sticker"
