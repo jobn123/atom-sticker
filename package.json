@@ -1,10 +1,14 @@
 {
   "name": "atom-sticker",
   "main": "./lib/atom-sticker",
-  "version": "0.5.0",
-  "description": "a package to make you enjoy your coding with atom, have fun!",
+  "version": "0.5.1",
+  "description": "A package to help you enjoy coding in atom. Remember: Have fun!",
   "keywords": [
-    "sticker"
+    "sticker",
+    "customize",
+    "ambiance",
+    "workspace",
+    "liven"
   ],
   "activationCommands": {
     "atom-workspace": "atom-sticker:toggle"
