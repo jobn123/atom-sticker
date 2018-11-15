@@ -1,4 +1,4 @@
-// The ui-variables file is provided by base themes provided by Atom.
+﻿// The ui-variables file is provided by base themes provided by Atom.
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
@@ -8,25 +8,28 @@
   z-index: 999999;
   pointer-events: none;
 
+  display: block;
   position: absolute;
   bottom: 32px;
   right: 16px;
-  width: 38%;
-  height: auto;
+
+  max-width: 38%;
+  max-height: 38%;
   min-width: 300px;
-  min-height: 38%;
-  overflow: auto;
-
-  background: url('https://vignette.wikia.nocookie.net/kancolle/images/1/15/BB_Nagato_Kai_Ni_541_Full.png');
-  // background: url('https://inteligentium.files.wordpress.com/2012/02/sonic_art_assets_dvd_-_knuckles_-_1.png');
-  // background: url('https://1.bp.blogspot.com/-oeDdFS2jpCY/VoVCLMK2L6I/AAAAAAAAEd8/dCyLjA1GAH0/s1600/Neptunia%2BNeptune%252BPurple%2BHeart%2BMega%2BCute%2BSalute%2BHD%2BRender.png');
-
-  background-size: 100%;
-  background-color: transparent;
-  background-repeat: no-repeat;
+  min-height: 16%;
 }
 
-/****************让图片在代码下面*****************/
-// .item-views {
-//   z-index: 999999 !important;
-// }
+.atom-sticker-image {
+  width: auto; //
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+
+  overflow: auto;
+}
+
+.atom-sticker-message {
+  border-left: 3px inset white;
+  padding-left: 6px;
+  background-color: rgba(32, 32, 32, 0.85);
+}
