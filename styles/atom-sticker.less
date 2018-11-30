@@ -1,23 +1,35 @@
-// The ui-variables file is provided by base themes provided by Atom.
+﻿// The ui-variables file is provided by base themes provided by Atom.
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 // @import "ui-variables";
 
 .atom-sticker {
-  position: absolute;
-  bottom: 30px;
-  right: 25px;
   z-index: 999999;
-  width: 283.33px;
-  height: 400px;
-  background-color: transparent;
-  background: url('http://7xoboh.com1.z0.glb.clouddn.com/m.png');
-  background-size: 283.33px 400px;
-  background-repeat: no-repeat;
+  pointer-events: none;
+
+  display: block;
+  position: absolute;
+  bottom: 32px;
+  right: 16px;
+
+  max-width: 38%;
+  max-height: 38%;
+  min-width: 300px;
+  min-height: 16%;
 }
 
-/****************让图片在代码下面*****************/
-// .item-views {
-//   z-index: 999999 !important;
-// }
+.atom-sticker-image {
+  width: auto; //
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+
+  overflow: auto;
+}
+
+.atom-sticker-message {
+  border-left: 3px inset white;
+  padding-left: 6px;
+  background-color: rgba(32, 32, 32, 0.85);
+}

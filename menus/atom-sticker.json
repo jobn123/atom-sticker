@@ -1,9 +1,18 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "atom-workspace": [
       {
-        "label": "Toggle atom-sticker",
-        "command": "atom-sticker:toggle"
+        "label": "Atom-Sticker",
+        "submenu": [
+          {
+            "label": "Enable/Disable",
+            "command": "atom-sticker:toggle"
+          },
+          {
+            "label": "Cycle New",
+            "command": "atom-sticker:cycle-new"
+          }
+        ]
       }
     ]
   },
@@ -12,11 +21,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-sticker",
+          "label": "Atom-Sticker",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Enable/Disable",
               "command": "atom-sticker:toggle"
+            },
+            {
+              "label": "Cycle New",
+              "command": "atom-sticker:cycle-new"
             }
           ]
         }
