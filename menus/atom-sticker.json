@@ -5,12 +5,12 @@
         "label": "Atom-Sticker",
         "submenu": [
           {
-            "label": "Enable/Disable",
-            "command": "atom-sticker:toggle"
-          },
-          {
             "label": "Cycle New",
             "command": "atom-sticker:cycle-new"
+          },
+          {
+            "label": "Enable/Disable",
+            "command": "atom-sticker:toggle"
           }
         ]
       }
