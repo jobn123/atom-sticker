@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-s": "atom-sticker:toggle"
+    "alt-cmd-s": "atom-sticker:toggle"
   }
 }

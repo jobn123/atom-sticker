@@ -1,0 +1,25 @@
+{
+  "stickerLocations": {
+    "title": "Locations from which to source your stickers",
+    "description": "These can be URLs to files and folders.",
+    "type": "array",
+    "default": ["https://upload.wikimedia.org/wikipedia/commons/c/ca/Atom_icon.png","https://vignette.wikia.nocookie.net/kancolle/images/1/15/BB_Nagato_Kai_Ni_541_Full.png"],
+    "order": 1
+  },
+  "stickerFolder": {
+    "title": "A folder path containing your 'sticker' images.",
+    "description": "Absolute path to folder containing: `0.png`, `1.png` ... `n.png`",
+    "type": "string",
+    "default": "C:/users/nobody/pictures",
+    "order": 2
+  },
+  "stickerOpacity": {
+    "title": "Sticker Opacity",
+    "description": "This will adjust the see-through-ness of stickers.",
+    "type": "number",
+    "default": 1,
+    "minimum": 0,
+    "maximum": 1,
+    "order": 3
+  }
+}
